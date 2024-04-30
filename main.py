@@ -9,7 +9,7 @@ import datetime
 from pyrogram import Client
 
 user_session_string = os.environ.get("1BVtsOH8Bu4qrcA63aC7Nymd0B9nb0BpfQe_PabeQXNeBciIBtpHQ6YSaeUv2lZpNNOrp2PW1RGcxWJ7YBJoEhyHwI8z97ILIcCGjsr2V9u40cQkdCGUDsj35En345lY7V0f9t7SedTFv5IsxhWV-A2HbVlQh84k-Axy8Q5eqdAcmJLV7iU6Btnt4JSbx-Aa_IgPyLH2uZS4MxRLNqq2sK9wWa-w_6wr50W0XUq3MyMfqFVtMGomybbHRzcql1JchLNfLvWQIIJ0Z4YyPZRC7b_s9ZNbFwkOICHS5wuujh_oY7FJxGWt4S_jDPt3nzxtSdSSRr2QAUlQkKkWCkSJAtOOinOhCmZk=")
-bots = [i.strip() for i in os.environ.get("ArabUltraUbot ArabV2Ubot supernovaxubot DayforuMusic_bot ArabxRobot AfterGankUbot SASProtectV1_Bot SonixUbot OnedayXUbot RoyalUbot MydamnUbot fsubprem_1bot DomiUbot")]
+bots = [i.strip() for i in os.environ.get("ArabUltraUbot ArabV2Ubot supernovaxubot DayforuMusic_bot ArabxRobot AfterGankUbot SASProtectV1_Bot SonixUbot OnedayXUbot RoyalUbot MydamnUbot fsubprem_1bot DomiUbot").split(' ')]
 update_channel = os.environ.get("-1001837260549")
 status_message_ids = [int(i.strip()) for i in os.environ.get("44").split(' ')]
 api_id = int(os.environ.get("29737623"))
