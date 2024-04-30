@@ -8,12 +8,12 @@ import datetime
 
 from pyrogram import Client
 
-user_session_string = os.environ.get("user_session_string")
-bots = [i.strip() for i in os.environ.get("bots").split(' ')]
-update_channel = os.environ.get("update_channel")
-status_message_ids = [int(i.strip()) for i in os.environ.get("status_message_id").split(' ')]
-api_id = int(os.environ.get("api_id"))
-api_hash = os.environ.get("api_hash")
+user_session_string = os.environ.get("1BVtsOH8Bu4qrcA63aC7Nymd0B9nb0BpfQe_PabeQXNeBciIBtpHQ6YSaeUv2lZpNNOrp2PW1RGcxWJ7YBJoEhyHwI8z97ILIcCGjsr2V9u40cQkdCGUDsj35En345lY7V0f9t7SedTFv5IsxhWV-A2HbVlQh84k-Axy8Q5eqdAcmJLV7iU6Btnt4JSbx-Aa_IgPyLH2uZS4MxRLNqq2sK9wWa-w_6wr50W0XUq3MyMfqFVtMGomybbHRzcql1JchLNfLvWQIIJ0Z4YyPZRC7b_s9ZNbFwkOICHS5wuujh_oY7FJxGWt4S_jDPt3nzxtSdSSRr2QAUlQkKkWCkSJAtOOinOhCmZk=")
+bots = [i.strip() for i in os.environ.get("ArabUltraUbot ArabV2Ubot supernovaxubot DayforuMusic_bot ArabxRobot AfterGankUbot SASProtectV1_Bot SonixUbot OnedayXUbot RoyalUbot MydamnUbot fsubprem_1bot DomiUbot").split(' ')]
+update_channel = os.environ.get("-1001837260549")
+status_message_ids = [int(i.strip()) for i in os.environ.get("44").split(' ')]
+api_id = int(os.environ.get("29737623"))
+api_hash = os.environ.get("71a4bb6501593f225cdab4d4b368a830")
 user_client = Client(session_name=str(user_session_string), api_id=api_id, api_hash=api_hash)
 
 
@@ -21,7 +21,7 @@ def main():
     with user_client:
         while True:
             print("[INFO] starting to check uptime..")
-            edit_text = f"🔰𝐓𝐫𝐚𝐜𝐤𝐬𝐭𝐮𝐝𝐢𝐨'𝐬 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬🔰\n\n__( All bots are checked automatically if any correction report it )__\n\n\n"
+            edit_text = f"🔰SI ARAB STATUS BOT🔰\n\n__( All bots are checked automatically if any correction report it )__\n\n\n"
             for bot in bots:
                 print(f"[INFO] checking @{bot}")
                 snt = user_client.send_message(bot, '/start')
