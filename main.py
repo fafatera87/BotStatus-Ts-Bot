@@ -11,7 +11,7 @@ bots = bots_str.split() if bots_str else []
 update_channel = os.environ.get("-1001837260549")
 status_message_ids_str = os.environ.get("44")
 status_message_ids = [int(i.strip()) for i in status_message_ids_str.split(' ')] if status_message_ids_str else []
-api_id = int(os.environ.get("29737623"))
+api_id = int(os.environ.get(29737623))
 api_hash = os.environ.get("71a4bb6501593f225cdab4d4b368a830")
 user_client = Client(session_name=str(user_session_string), api_id=api_id, api_hash=api_hash)
 
