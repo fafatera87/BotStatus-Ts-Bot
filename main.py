@@ -37,10 +37,10 @@ def update_status(user_client, update_channel, status_message_ids, edit_text):
 def main():
     try:
         # Ambil nilai environment variables
-        user_session_string = os.environ.get("PYROGRAM_SESSION")
-        bot_usernames_str = os.environ.get("BOT_USERNAMES")
-        update_channel = os.environ.get("UPDATE_CHANNEL")
-        status_message_ids_str = os.environ.get("STATUS_MESSAGE_IDS")
+        user_session_string = os.environ.get("BQAP-GEAJeLaW5zShFphAkcsPn1yau3TXAXGhGCqp2zzm_lu2Pi-GmfiGN7G-7YM3KSRLFoS-YHNEGX9F13-rJm9zJr9LUuoICsbzxe7bUvfsXxSnoUaF5bIxHP3SilzWBJ3-vLgW0AANsUNGSgJbR6vyG1iyT5_Racc3CosPz8SznpLTaKq6x6w4s08-xO03btFljAhnDxjPSiXfgaodwNLzOfu42I2AiiFdwU_GwnOCmaitlrM6fqoxYL--8-2ppmmOzWU2IF1ZAgAAjLOwepxwFVCZTkW3lkbR24D8Aj3rdT0w26ch7WZ86Dr7UDPFV3khlm6337h_m99uKbHUttX-2CHIwAAAAByE1_bAA")
+        bot_usernames_str = os.environ.get("ArabUltraUbot ArabV2Ubot supernovaxubot DayforuMusic_bot ArabxRobot AfterGankUbot SASProtectV1_Bot SonixUbot OnedayXUbot RoyalUbot MydamnUbot fsubprem_1bot DomiUbot")
+        update_channel = os.environ.get("-1001837260549")
+        status_message_ids_str = os.environ.get("43")
 
         # Inisialisasi klien Pyrogram
         user_client = Client(session_name=str(user_session_string))
