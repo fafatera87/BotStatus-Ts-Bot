@@ -41,9 +41,12 @@ def main():
         bot_usernames_str = os.environ.get("ArabUltraUbot ArabV2Ubot supernovaxubot DayforuMusic_bot ArabxRobot AfterGankUbot SASProtectV1_Bot SonixUbot OnedayXUbot RoyalUbot MydamnUbot fsubprem_1bot DomiUbot")
         update_channel = os.environ.get("-1001837260549")
         status_message_ids_str = os.environ.get("43")
+        api_id = int(os.environ.get("29737623"))
+        api_hash = os.environ.get("71a4bb6501593f225cdab4d4b368a830")
 
-        # Initialize Pyrogram client
-        user_client = Client(name=str(user_session_string))
+        # Inisialisasi klien Pyrogram dengan kunci API
+        user_client = Client(session_name=str(user_session_string), api_id=api_id, api_hash=api_hash)
+
 
         with user_client:
             while True:
